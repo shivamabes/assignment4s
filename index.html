@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <h1>Survey form</h1>
+ <div class="container">
+    <form action="https://enw7u145b8im9.x.pipedream.net/">
+        <!-- first name -->
+   <label for="name" > First_name: <span>*</span></label> 
+   <input type="text" name="first_name :" id="name" required size="25">
+   <!-- last name -->
+   <div><br>
+   <label for="name"> Last_name:  <span>*</span> </label> 
+   <input type="text" name="last_name :" id="name" required size="25">
+   </div>
+   <!-- Address section -->
+   <div><br>
+    <label for="street"> Street_address: <span>*</span></label> 
+    <input type="text" name="street_address :" id="street" required size="21">
+    </div>
+    <!-- city -->
+    <div><br>
+        <label for="city">City: <span>*</span> </label> 
+        <input type="text" name="city :" id="city" required size="31">
+    </div>
+     <!-- pin code -->
+     <div><br>
+        <label for="pincode">pincode:  <span>*</span></label> 
+        <input type="number" name="pincode :" id="pincode" maxlength="6">
+        </div>
+    <!-- state -->
+    <div><br>
+        <label for="state"> State:  <span>*</span></label> 
+        <input type="text" name="state :" id="state" required size="31">
+    </div>
+    <!-- contact number -->
+    <div><br>
+        <label for="number">contact_number: <span>*</span> </label> 
+        <input type="number" name="contact_number :" id="number" maxlength="10" required >
+        </div>
+    <!-- Rating section -->
+     <div><br>
+        <label for="rating">Quality_of_products_received_rating: <span>*</span></label> 
+       Excellent <input type="radio" name="quality_of_products_received_rating :" id="rating" required value="Excellent">
+       Good <input type="radio" name="Quality_of_products_received_rating :" id="rating" value="Good">
+       Bad <input type="radio" name="Quality_of_products_received_rating :" id="rating" value="Bad">
+        </div>
+    <!-- Delivery rating -->
+     <div><br>
+        <label for="rating1">Delivery_rating:  <span>*</span></label> 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+       Excellent <input type="radio" name="delivery_rating :" id="rating1" required value="Excellent">
+       Good <input type="radio" name="delivery_rating :" id="rating1" value="Good">
+       Bad <input type="radio" name="delivery_rating :" id="rating1" value="Bad">
+      </div>
+     <!-- value for money rating -->
+     <div><br>
+        <label for="rating2">Value_for_money_rating: <span>*</span> </label>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;     
+       Excellent <input type="radio" name="value_for_money_rating :" id="rating2"required value="Excellent">
+       Good <input type="radio" name="value_for_money_rating :" id="rating2" value="Good">
+       Bad <input type="radio" name="value_for_money_rating :" id="rating2" value="Bad">
+      </div>
+      <br>
+ </div>
+        <div class="sub"><h4>
+        <input type="submit" value="submit">
+      </div></h4>
+</form>
+</body>
+</html>

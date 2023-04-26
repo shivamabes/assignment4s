@@ -1,0 +1,68 @@
+/* Media queries */
+@media only screen and (max-width:300px)
+{
+  .container{
+    display: inline;
+  }
+}
+/* for mobiles */
+@media only screen and (min-width:300px) and  (man-width:600px)
+{
+  .container{
+    display:block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+/* for laptops */
+ @media only screen and (min-width:600px) 
+{
+  .container
+  {
+    display: block;
+    /* font-weight: bold; */
+  }
+} 
+  
+
+/* .container{
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+ /* input[type='number']
+{
+  width: 80px;
+} */
+body{
+    background-image:url('https://cdn.pixabay.com/photo/2016/08/15/10/17/survey-1594962__480.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    /* background-position: center; */
+}
+span{
+  color: red;
+}
+input{
+  border: 1.5px solid burlywood;
+  border-radius: 14px;
+}
+.sub [type='submit']{
+  width: 152px;
+  height: 24px;
+  /* margin: auto 56px; */
+  color: chocolate;
+  font-weight: bold;
+  border: 3px solid burlywood;
+}
+.sub [type='submit']:hover
+{
+   background-color: bisque;
+   color:darkorange;
+}
